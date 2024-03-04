@@ -22,7 +22,7 @@ Jest has been setup, but no progress on building tests has been made. Life is bu
 I am currently taking a short break in development of this theme. I am in the final phases of a job search, and getting ready to move into a bigger place to give some much needed room to my growing family! I am hoping to continue development before the end of next quarter!
 
 ## This website is still being developed! 🥳
-The porftofolio application has currently hit the Beta phase and is ready to be forked if you are familiar with React and Next. The next release cycle will focus on a better DX—moving from local JSON to MongoDB, setting up Sanity for GUI page editing, Unit Testing with Jest, adding TypeScript, etc.
+The porftfolio application has currently hit the Beta phase and is ready to be forked if you are familiar with React and Next. The next release cycle will focus on a better DX—moving from local JSON to MongoDB, setting up Sanity for GUI page editing, Unit Testing with Jest, adding TypeScript, etc.
 
 #### Next & App Architecure
 - [ ] Next.js v13 : Waiting for /app/ folder to leave beta
