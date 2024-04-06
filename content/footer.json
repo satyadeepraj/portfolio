@@ -32,11 +32,11 @@
 
 	"social": [
 		{
-			"url": "https://medium.com/@--andrewnelson",
+			"url": "/",
 			"icon": "medium"
 		},
 		{
-			"url": "https://dev.to/andrewnelson",
+			"url": "/",
 			"icon": "dev"
 		},
 		{

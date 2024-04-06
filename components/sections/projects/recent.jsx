@@ -9,7 +9,6 @@ import Icon from "../../utils/icon.util";
 import css from "../../../styles/sections/projects/recent.module.scss";
 
 export default function GitProjects({ repos, user }) {
-	
   return (
     <Section classProp={css.section}>
       <Container classProp={css.container} spacing={"verticalXXXLrg"}>
@@ -24,8 +23,12 @@ export default function GitProjects({ repos, user }) {
           />
           <span class={css.details}>
             <p>Satyadeep Raj</p>
-            <a href="https://github.com/satyadeepraj" rel="noreferrer" target="_blank">
-			https://github.com/satyadeepraj{" "}
+            <a
+              href="https://github.com/satyadeepraj"
+              rel="noreferrer"
+              target="_blank"
+            >
+              https://github.com/satyadeepraj{" "}
               <Icon icon={["far", "arrow-up-right-from-square"]} />
             </a>
           </span>
