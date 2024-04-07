@@ -1,5 +1,8 @@
 @import '../../scss/mixins';
 
+$tablet: 768px;
+
+
 .hasBg {
 	border-bottom: 1px solid var(--primary-dark);
 }
@@ -324,3 +327,14 @@
 	}
 }
 
+
+.mobileHidden {
+	@include media($max: $mobile) {
+	  display: none;
+	}
+  }
+  .fullScreenHidden {
+	@include media($min: $tablet) {
+	  display: none;
+	}
+  }

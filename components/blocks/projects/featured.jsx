@@ -51,11 +51,14 @@ export default function FeaturedProject({ content }, index) {
       <div className={css.details}>
         <div className={css.projectHeader}>
           <div className={css.header}>
-            <h3 className="highlight">{project}</h3>
+           <a href={url}> <h3 className="highlight">{project}</h3></a>
             <span className={css.privateOr}>
               <i className="devicon-github-plain"></i>
               {repo}
             </span>
+            <a className={`${css.viewProject} ${css.fullScreenHidden}`} href={url}>
+              <Icon icon={["fad", "arrow-right-to-bracket"]} />
+            </a>
           </div>
           <div className={css.description}>
             <p>
@@ -71,7 +74,7 @@ export default function FeaturedProject({ content }, index) {
             />
           </div>
           <Link href={url} passHref>
-            <a className={css.viewProject}>
+            <a className={`${css.viewProject} ${css.mobileHidden}`}>
               <Icon icon={["fad", "arrow-right-to-bracket"]} />
             </a>
           </Link>
